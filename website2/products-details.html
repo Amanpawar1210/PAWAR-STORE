@@ -1,0 +1,377 @@
+<!doctype html>
+<html>
+
+<head>
+<title> Product-details | Pawar Store</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<script src="store.js" async> </script>
+</head>
+
+<body>
+
+<!--------------------------------empty star <i class="fa fa-star-o"></i> ------------->     <!--font-awesome-->
+
+<!-------------------------------------star  <i class="fa fa-star"></i>  --------------->
+
+<!----------------------------half empty star <i class="fa fa-star-half-o"></i>  ---------> 
+
+
+
+
+<!-----------------------------------------------------header section------------------------------------------------------------->
+
+<div class="container">
+<!------------------------------------------Navigation bar------------------------------------->
+<div class="navbar">
+
+<div class="logo">
+<a href="index.html">  <img src="images/pawarstore.jpg" width="145px" style="padding-right:20px;" > </a>  <!--logo-->
+</div>
+
+<nav>
+<ul id="menuitems">
+<li> <a href="index.html"> Home </a> </li>
+<li> <a href="products.html">Products</a> </li>
+<li> <a href="">About</a> </li>
+<li> <a href="contactus.html">Contact</a> </li>
+<li> <a href="store.html">Store</a> </li>
+<li> <a href="account.html">Account</a> </li>
+</ul>
+
+</nav>
+
+<a href="cart.html">  <img src="images/cart.png" width="30px" height="30px" > </a> <!----cart----->
+
+<img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> <!---menu---->
+
+</div>
+
+<!--------------Navigation bar ends here------------------->
+
+
+</div> <!--container-->
+
+<!-----------------------------------------------------------------header section ends here----------------------------------------------->
+
+<!-------------------------------------------------------------------Single Products----------------------------------------------------->
+
+<div class="small-container single-product">
+
+<div class="row">
+ 
+<!---------------------------------------------------Left-side-of-product-page----------------------------------------------------->
+ 
+<div class="col-2"> <!----left-side---->
+<img src="images/striped1.jpg" width="100%" id="ProductImg"> <!----main image--->
+
+<div class="small-image-row"> <!----small images----->
+
+<div class="small-image-col">
+<img src="images/striped1.jpg" width="100%" class="small-img" onclick="change(1)">
+</div>
+
+<div class="small-image-col">
+<img src="images/striped2.jpg" width="100%" class="small-img" onclick="change(2)">
+</div>
+
+<div class="small-image-col">
+<img src="images/striped3.jpg" width="100%" class="small-img" onclick="change(3)">
+</div>
+
+<div class="small-image-col">
+<img src="images/striped4.jpg" width="100%" class="small-img" onclick="change(4)">
+</div>
+
+</div> <!-----small-image-row---->
+
+</div> <!---col-2----> <!----left-side---->
+
+<!----------------------------------------------left-side-of-product-page-ends-here----------------------------------------------->
+
+<!--------------------------------------------------Right-side-of-product-page----------------------------------------------------->
+
+<div class="col-2">  <!-----right-side------>
+<p> Home / Shirt </p>
+<h1> Men Regular Fit Stripted Casual Shirt </h1>
+<h4>$30.00</h4>
+
+<select>  <!------selecting size ----------------->
+<option> Select Size </option>
+<option> XXL </option>
+<option> XL </option>
+<option> L </option>
+<option> M </option>
+<option> S </option>
+</select>
+
+<input type="number" value="1">   <!---quantity---->
+<a href="" class="btn">Add to Cart </a>
+
+<h3> Product Details <i class="fa fa-indent"></i></h3>
+<table class="detail"; style="width:90%">
+    <tr>
+        <td>Pack of </td>
+        <td>-</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Style code  </td>
+        <td>-</td>
+        <td>
+            Men Regular, Super Slim Fit Striped Casual Shirt</td>
+    </tr>
+    <tr>
+        <td>Secondary color</td>
+        <td>-</td>
+        <td>Multicolor</td>
+    </tr>
+    <tr>
+        <td>Closure</td>
+        
+        <td>-</td>
+        <td>Button</td>
+    </tr>
+    <tr>
+        <td>Fit</td>
+        <td>-</td>
+        
+        <td>Regular</td>
+    </tr>
+    <tr>
+        <td>Fabric</td>
+        
+        <td>-</td>
+        <td>
+            Cotton Lycra Blend</td>
+    </tr>
+    <tr>
+        <td>Sleeve</td>
+        
+        <td>-</td>
+        <td>
+            Half Sleeve</td>
+    </tr>
+    <tr>
+        <td>Pattern</td>
+        
+        <td>-</td>
+        <td>
+            Striped</td>
+    </tr>
+    <tr>
+        <td>Reversible</td>
+        
+        <td>-</td>
+        <td>
+            No</td>
+    </tr>
+    <tr>
+        <td>Color</td>
+        
+        <td>-</td>
+        <td>
+            Multicolor</td>
+    </tr>
+    <tr>
+        <td>Fabric Care</td>
+        
+        <td>-</td>
+        <td>Hand wash
+        </td>
+    </tr>
+    <tr>
+        <td>Suitable For</td>
+        
+        <td>-</td>
+        <td>
+            Western Wear</td>
+    </tr>
+    
+
+
+</table>
+<br>
+
+</div> <!---col-2----> <!---right-side--->
+
+</div> <!----row---->
+
+<!---------------------------------------------right-side-of-product-page-ends-here----------------------------------------------->
+
+</div> <!-----small-container----->
+
+<!-----------------------------------------------------Tittle-------------------------------------------------------------------->
+
+
+<div class="small-container">
+
+<div class="row row-2">
+
+<h2> Related Products </h2>
+<p><a href="products.html"> View More </a> </p>
+
+</div>
+
+</div> <!----small-container----->
+
+<!--------------------------------------------------Similar-products------------------------------------------------------------>
+
+<div class="small-container">
+
+<div class="row">
+
+<div class="col-4">
+<img src="images/product-9.jpg">
+<h4> Red Printed T-Shirt </h4>
+<div class="ratings">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+<p> $50.00 </p>
+</div>
+
+<div class="col-4">
+<img src="images/product-10.jpg">
+<h4> Shoes </h4>
+<div class="ratings">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+<p> $160.00 </p>
+</div>
+
+<div class="col-4">
+<img src="images/product-11.jpg">
+<h4> Track Pant </h4>
+<div class="ratings">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+</div>
+<p> $80.00 </p>
+</div>
+
+<div class="col-4">
+<img src="images/product-12.jpg">
+<h4> Navie Blue T-Shirt </h4>
+<div class="ratings">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+</div>
+<p> $55.00 </p>
+</div>
+
+</div> <!--row-->
+
+</div> <!--small-container-->
+
+<!------------------------------------------------------------Similar products ends here--------------------------------------------------->
+
+
+<!-------------------------------------------------------------------Footer------------------------------------------------------------>
+<div class="footer">
+
+<div class="container">
+
+<div class="row">
+
+
+<div class="footer-col-1">
+<img src="images/pawarstore.jpg">
+<p> Our purpose is to Sustainbly Make the Pleasure and Benefits of Sports Accessible to the Many. </p>
+</div>
+
+<div class="footer-col-2">
+    <h3> Useful Links</h3>
+    <ul>
+    <li><a href=""> Coupons </a> </li>
+    <li><a href="">  Blog Post</a> </li>
+    <li><a href="">  Return Policy </a></li>
+    <li><a href="">  Join Affliate</a> </li>
+    </ul>
+    </div>
+    
+    <div class="footer-col-3">
+    <h3> Follow Us</h3>
+    <ul>
+        <li><a href=""> <i class="fa fa-facebook"></i> Facebook </a> </li>
+        <li><a href=""> <i class="fa fa-instagram"></i> Instagram </a> </li>
+        <li><a href=""> <i class="fa fa-twitter "></i> Twitter </a></li>
+        <li> <a href=""> <i class="fa fa-youtube"></i> Youtube </a> </li>
+    </ul>
+    </div>
+
+</div> <!----row---->
+
+<hr>
+<p class="copyright"> Copyright 2022 - Aman Pawar </p>
+
+</div> <!----container----->
+
+</div> <!----footer----->
+
+<!-------------------------------------------------------------Footer ends here----------------------------------------------->
+
+
+<!------------------------------------JS for toggle menu------------------------------------------------------>
+
+<script>
+
+var menuitems=document.getElementById("menuitems");
+
+menuitems.style.maxHeight="0px";
+
+function menutoggle(){
+if(menuitems.style.maxHeight=="0px"){
+menuitems.style.maxHeight="200px";
+}
+else
+{
+menuitems.style.maxHeight="0px";
+}
+
+}
+
+
+</script>
+
+<!-------------------------------------------------JS for togglemenu ends here ---------------------------------------------->
+
+<!-----------------------------------------------------JS for product gallery ---------------------------------------------->
+
+<script>
+
+var ProductImg = document.getElementById("ProductImg");
+
+function change(i)
+{
+if(i==1)
+ProductImg.src="images/striped1.jpg";
+if(i==2)
+ProductImg.src="images/striped2.jpg";
+if(i==3)
+ProductImg.src="images/striped3.jpg";
+if(i==4)
+ProductImg.src="images/striped4.jpg";
+}
+
+</script>
+
+<!-----------------------------------------------------JS for product gallery ends here---------------------------------------->
+
+</body>
+
+</html>
